@@ -1,0 +1,8 @@
+build/
+dist/
+*.egg-info/
+.eggs/
+*.exe
+
+run_merge_pdf.cmd
+run_merge_pdf.sh

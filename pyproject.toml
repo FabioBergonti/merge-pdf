@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "merge-pdf"
+version = "0.1.0"
+description = "GUI to select, reorder, and merge multiple PDF files"
+authors = [{ name = "Your Name" }]
+requires-python = ">=3.10"
+dependencies = ["pypdf"]
+readme = "README.md"
+
+[project.scripts]
+merge-pdf = "merge_pdf.app:main"
